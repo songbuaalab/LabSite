@@ -2,73 +2,20 @@
 @import "_variables"
 @import "_extend"
 
+
+@import "_partial/header"
+@import "_partial/nav"
+@import "_partial/sidebar"
+@import "_partial/article"
+@import "_partial/comment"
+@import "_partial/archive"
+@import "_partial/footer"
+@import "_partial/assets"
+@import "_partial/insight"
+@import "_highlight/index"
+@import "_responsive"
+
 global-reset()
-
-
-
-
-
-.member-tearch-bg {
-  background: url(http://www.imooc.com/static/img/index/eliteTbg.jpg) center center no-repeat #f3f5f7;
-  background-size: cover;
-  position: relative;
-  text-align: center;
-  color: #fff;
-  padding: 30px 50px;
-}
-
-.member-tearch-avator {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-}
-
-.member-tearch-info {
-  margin: 16px 0;
-}
-
-.member-tearch-info span{
-  padding: 0 16px;
-}
-
-.member-student-online {
-  padding: 8px;
-  display: grid;
-  font-size: 12px;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-@media only screen and (max-width: 479px) {
-  
-}
-@media screen and (max-width: 559px), screen and (max-height: 479px) {
-  .member-student-online {
-   grid-template-columns: 1fr;
-  }
-}
-.student-online-item {
-  border: 1px solid #e9e9e9;
-  padding: 16px;
-  margin: 8px;
-  display: flex;
-}
-
-.student-online-avator {
-  width: 60px;
-  height: 60px;
-  margin-right: 8px;
-}
-
-.student-online-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-
-
-
-
-
 
 
 
@@ -178,19 +125,3 @@ code
 
 
 
-
-
-
-
-
-@import "_partial/header"
-@import "_partial/nav"
-@import "_partial/sidebar"
-@import "_partial/article"
-@import "_partial/comment"
-@import "_partial/archive"
-@import "_partial/footer"
-@import "_partial/assets"
-@import "_partial/insight"
-@import "_highlight/index"
-@import "_responsive"
