@@ -60,6 +60,14 @@
   line-height: initial;
 }
 
+.student-online-info p:nth-child(1) {
+  font-weight: 600;
+}
+
+.student-online-info p span{
+  margin-left: 8px;
+}
+
 
 .member-outline {
   position: relative;
